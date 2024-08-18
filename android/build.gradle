@@ -26,6 +26,8 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 33
 
+    namespace 'com.hui.bluetooth_enable'
+
     defaultConfig {
         minSdkVersion 18
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
